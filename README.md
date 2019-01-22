@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1日で基本が身につく！RubyonRailsを元に作ったアプリ
 
-Things you may want to cover:
 
-* Ruby version
+scaffoldで日記アプリを作成
 
-* System dependencies
 
-* Configuration
+日時を日本時間に設定する
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+バリデーションの設定
+独自のバリデーションも追加
