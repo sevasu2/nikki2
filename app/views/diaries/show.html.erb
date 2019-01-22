@@ -1,14 +1,15 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>タイトル:</strong>
   <%= @diary.title %>
 </p>
 
 <p>
-  <strong>Body:</strong>
+  <strong>本文:</strong>
   <%= @diary.body %>
 </p>
 
-<%= link_to 'Edit', edit_diary_path(@diary) %> |
-<%= link_to 'Back', diaries_path %>
+<%= link_to '編集', edit_diary_path(@diary) %> |
+<%= link_to '削除', @diary, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to '一覧に戻る', diaries_path %>
